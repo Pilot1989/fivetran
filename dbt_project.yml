@@ -1,10 +1,10 @@
-name: Analytics
-version: 1.0.0
+name: Fivetran
+version: 2.0.0
 
 # Configure the models in models/facts/ to be materialized as views
 # in development and tables in production/CI contexts
 
 models:
-  my_project:
+  Fivetran:
     facts:
       +materialized: "{{ 'view' if target.name == 'dev' else 'table' }}"
