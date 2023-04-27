@@ -1,7 +1,7 @@
-[name](project-configs/name): string
+[name](project-configs/name): Analytics
 
 [config-version](project-configs/config-version): 2
-[version](project-configs/version): version
+[version](project-configs/version): 2
 
 [profile](project-configs/profile): profilename
 
