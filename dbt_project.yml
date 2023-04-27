@@ -1,4 +1,5 @@
 name: Fivetran
+config-version: 2
 version: 2.0.0
 
 # Configure the models in models/facts/ to be materialized as views
